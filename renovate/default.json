@@ -1,0 +1,7 @@
+{
+	"groupName": "all",
+	"automerge": true,
+	"major": {
+	  "automerge": false
+	}
+}
