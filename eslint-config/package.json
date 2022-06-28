@@ -1,0 +1,26 @@
+{
+  "name": "@apicurio/eslint-config",
+  "version": "0.1.0",
+  "description": "This package provides Apicurio's .eslintrc as an extensible shared config.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Apicurio/apicurio-configs.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Enda Phelan",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Apicurio/apicurio-configs/issues"
+  },
+  "homepage": "https://github.com/Apicurio/apicurio-configs#readme",
+  "dependencies": {
+    "@typescript-eslint/parser": "^5.30.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3",
+    "@typescript-eslint/eslint-plugin": ">= 5"
+  }
+}
