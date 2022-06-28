@@ -17,7 +17,6 @@ Once the `@apicurio/eslint-config` package is installed, you can specify it in t
 ```json
 {
 	"extends": "@apicurio",
-	"parser": "@typescript-eslint/parser",
 	"rules": {
 		// Additional project rules
 	}
