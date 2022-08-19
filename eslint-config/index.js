@@ -26,30 +26,21 @@ module.exports = {
 	],
 	parser: "@typescript-eslint/parser",
 	rules: {
-		"indent": [
-			"error",
-			4
+		"quotes": ["error", "double"],
+		"semi": ["error", "always"],
+		"indent": ["error", 4, {
+		  "FunctionDeclaration": {
+			"parameters": "first"
+		  },
+		  "SwitchCase": 1
+		}],
+		"key-spacing": ["error", {
+			"afterColon": true
+		  }
 		],
-		"linebreak-style": [
-			"error",
-			"unix"
-		],
-		"quotes": [
-			"error",
-			"double"
-		],
-		"semi": [
-			"error",
-			"always"
-		],
-		"key-spacing": [
-			"error", {
-				"afterColon": true
-			}
-		],
-		"@typescript-eslint/object-curly-spacing": [
-			"error",
-			"always"
-		]
-	}
+		"object-curly-spacing": ["error", "always"],
+		"linebreak-style": "off",
+		"@typescript-eslint/no-explicit-any": "off",
+		"@typescript-eslint/no-inferrable-types": "off"
+		}
 };
