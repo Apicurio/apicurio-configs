@@ -1,6 +1,6 @@
 {
   "name": "@apicurio/eslint-config",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "This package provides Apicurio's .eslintrc as an extensible shared config.",
   "main": "index.js",
   "repository": {
