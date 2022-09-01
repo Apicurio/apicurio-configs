@@ -1,0 +1,96 @@
+#Wed Aug 24 14:32:26 EDT 2022
+\!/=
+/configuration/org.eclipse.core.net/org.eclipse.core.net.hasMigrated=true
+/configuration/org.eclipse.epp.mpc.ui/showOpenFavoritesNotification=false
+/configuration/org.eclipse.ui.ide/MAX_RECENT_WORKSPACES=10
+/configuration/org.eclipse.ui.ide/RECENT_WORKSPACES=E\:\\workspaces-min\\apicurio-registry\nE\:\\workspaces-min\\apicurio-data-models\nE\:\\workspaces-min\\codegen\nE\:\\workspaces-min\\hackathon
+/configuration/org.eclipse.ui.ide/RECENT_WORKSPACES_PROTOCOL=3
+/configuration/org.eclipse.ui.ide/SHOW_RECENT_WORKSPACES=false
+/configuration/org.eclipse.ui.ide/SHOW_WORKSPACE_SELECTION_DIALOG=true
+/instance/org.eclipse.core.net/org.eclipse.core.net.hasMigrated=true
+/instance/org.eclipse.core.resources/encoding=UTF-8
+/instance/org.eclipse.core.resources/version=1
+/instance/org.eclipse.debug.core/prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<watchExpressions/>\r\n
+/instance/org.eclipse.debug.ui/org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<launchPerspectives/>\r\n
+/instance/org.eclipse.debug.ui/org.eclipse.debug.ui.user_view_bindings=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<viewBindings>\r\n    <view id\="org.eclipse.jdt.debug.ui.DisplayView">\r\n        <perspective id\="org.eclipse.debug.ui.DebugPerspective" userAction\="opened"/>\r\n    </view>\r\n    <view id\="org.eclipse.debug.ui.ExpressionView">\r\n        <perspective id\="org.eclipse.debug.ui.DebugPerspective" userAction\="opened"/>\r\n    </view>\r\n</viewBindings>\r\n
+/instance/org.eclipse.debug.ui/pref_state_memento.org.eclipse.debug.ui.DebugVieworg.eclipse.debug.ui.DebugView=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<DebugViewMemento org.eclipse.debug.ui.BREADCRUMB_DROPDOWN_AUTO_EXPAND\="false"/>
+/instance/org.eclipse.debug.ui/pref_state_memento.org.eclipse.debug.ui.VariableView=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<VariablesViewMemento org.eclipse.debug.ui.SASH_DETAILS_PART\="315" org.eclipse.debug.ui.SASH_VIEW_PART\="684">\r\n<PRESENTATION_CONTEXT_PROPERTIES IMemento.internal.id\="org.eclipse.debug.ui.VariableView">\r\n<BOOLEAN BOOLEAN\="true" IMemento.internal.id\="PRESENTATION_SHOW_LOGICAL_STRUCTURES"/>\r\n</PRESENTATION_CONTEXT_PROPERTIES>\r\n</VariablesViewMemento>
+/instance/org.eclipse.debug.ui/preferredDetailPanes=DefaultDetailPane,org.eclipse.jdt.debug.ui.JAVA_VARIABLE_DETAIL_PANE_VARIABLES\:org.eclipse.jdt.debug.ui.JAVA_VARIABLE_DETAIL_PANE_VARIABLES|DefaultDetailPane\:DefaultDetailPane|
+/instance/org.eclipse.debug.ui/preferredTargets=default\:default|
+/instance/org.eclipse.egit.core/GitRepositoriesView.GitDirectories=C\:\\Users\\ewittman\\git\\apicurio\\apicurio-registry\\.git;
+/instance/org.eclipse.egit.core/GitRepositoriesView.GitDirectories.relative=C\:\\Users\\ewittman\\git\\apicurio\\apicurio-registry\\.git;
+/instance/org.eclipse.egit.core/core_ssh_default_agent=\\\\.\\pageant
+/instance/org.eclipse.egit.ui/decorator_filetext_decoration={name}
+/instance/org.eclipse.egit.ui/decorator_foldertext_decoration={name}
+/instance/org.eclipse.egit.ui/decorator_projecttext_decoration={name} [{repository }{branch}{ branch_status}]
+/instance/org.eclipse.egit.ui/decorator_show_dirty_icon=true
+/instance/org.eclipse.egit.ui/decorator_submoduletext_decoration={name} [{branch}{ branch_status}]{ short_message}
+/instance/org.eclipse.epp.mpc.ui/CatalogDescriptor=https\://marketplace.eclipse.org
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.builder.resourceCopyExclusionFilter=
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.classpathVariable.JRE_LIB=C\:/Tools/openjdk-11-28/lib/jrt-fs.jar
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.classpathVariable.JRE_SRC=C\:/Tools/openjdk-11-28/lib/src.zip
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.codegen.targetPlatform=17
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.compliance=17
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.release=enabled
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.source=17
+/instance/org.eclipse.jdt.debug.ui/org.eclipse.debug.ui.ExpressionView.org.eclipse.jdt.debug.ui.show_null_entries=true
+/instance/org.eclipse.jdt.debug.ui/org.eclipse.debug.ui.VariableView.org.eclipse.jdt.debug.ui.show_null_entries=true
+/instance/org.eclipse.jdt.junit/org.eclipse.jdt.junit.content_assist_favorite_static_members_migrated=true
+/instance/org.eclipse.jdt.launching/org.eclipse.jdt.launching.PREF_VM_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<vmSettings defaultVM\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType13,1657896400897" defaultVMConnector\="">\r\n    <vmType id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType">\r\n        <vm id\="1657894379893" name\="jre" path\="C\:\\Tools\\eclipse-min\\plugins\\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416\\jre"/>\r\n        <vm id\="1657896400897" name\="openjdk-11-28" path\="C\:\\Tools\\openjdk-11-28"/>\r\n        <vm id\="1657896637149" name\="jdk-17" path\="C\:\\Tools\\jdk-17"/>\r\n    </vmType>\r\n</vmSettings>\r\n
+/instance/org.eclipse.jdt.ui/content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Enum"><rhs name\="io.apicurio.registry.rules.compatibility.CompatibilityLevel"/></lhs><lhs name\="io.apicurio.registry.rules.compatibility.CompatibilityLevel"><rhs name\="io.apicurio.registry.rules.compatibility.CompatibilityLevel"/></lhs></history>
+/instance/org.eclipse.jdt.ui/content_assist_number_of_computers=12
+/instance/org.eclipse.jdt.ui/content_assist_proposals_background=255,255,255
+/instance/org.eclipse.jdt.ui/content_assist_proposals_foreground=0,0,0
+/instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.formatterprofiles.version=22
+/instance/org.eclipse.jdt.ui/spelling_locale_initialized=true
+/instance/org.eclipse.jdt.ui/typefilter_migrated_2=true
+/instance/org.eclipse.jdt.ui/useAnnotationsPrefPage=true
+/instance/org.eclipse.jdt.ui/useQuickDiffPrefPage=true
+/instance/org.eclipse.jsch.core/org.eclipse.jsch.core.hasChangedDefaultWin32SshHome=true
+/instance/org.eclipse.jsch.core/org.eclipse.jsch.core.hasMigratedSsh2Preferences=true
+/instance/org.eclipse.m2e.core/eclipse.m2.WorkspacelifecycleMappingsLocation=E\:/workspaces-min/apicurio-registry/.metadata/.plugins/org.eclipse.m2e.core/lifecycle-mapping-metadata.xml
+/instance/org.eclipse.m2e.discovery/org.eclipse.m2e.discovery.pref.projects=
+/instance/org.eclipse.oomph.workingsets/working.set.group=<?xml version\="1.0" encoding\="UTF-8"?>\n<workingsets\:WorkingSetGroup xmi\:version\="2.0" xmlns\:xmi\="http\://www.omg.org/XMI" xmlns\:workingsets\="http\://www.eclipse.org/oomph/workingsets/1.0"/>\n
+/instance/org.eclipse.search/org.eclipse.search.defaultPerspective=org.eclipse.search.defaultPerspective.none
+/instance/org.eclipse.team.core/file_types=confluence\n1\nfactorypath\n1\nbmp\n2\nproject\n1\nmxsd\n1\ntif\n2\nexe\n2\njava\n1\nico\n2\nxmi\n1\nxml\n1\noptions\n1\nMF\n1\nhtml\n1\njar\n2\nzip\n2\npng\n2\ntextile\n1\nindex\n1\nhistory\n1\nmediawiki\n1\ndoc\n2\necore\n1\ntwiki\n1\ntiff\n2\ngif\n2\nxsd\n1\nnst\n1\nemof\n1\nxsl\n1\nwsdl\n1\nmarkdown\n1\njpeg\n2\nso\n2\nclass\n2\nasciidoc\n1\nhtm\n1\njpg\n2\nclasspath\n1\ndll\n2\nini\n1\nlaunch\n1\nexsd\n1\nprefs\n1\ntracwiki\n1\ntxt\n1\njpage\n1\npdf\n2\nppt\n2\nxslt\n1\njardesc\n1\nproperties\n1\nxls\n2\ndadx\n1\n
+/instance/org.eclipse.ui.ide/platformState=1657893371779
+/instance/org.eclipse.ui.ide/quickStart=false
+/instance/org.eclipse.ui.ide/tipsAndTricks=true
+/instance/org.eclipse.ui.workbench//org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
+/instance/org.eclipse.ui.workbench/PLUGINS_NOT_ACTIVATED_ON_STARTUP=org.eclipse.m2e.discovery;
+/instance/org.eclipse.ui.workbench/org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_END=255,255,255
+/instance/org.eclipse.ui.workbench/org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_START=255,255,255
+/instance/org.eclipse.ui.workbench/org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_TEXT_COLOR=16,16,16
+/instance/org.eclipse.ui.workbench/org.eclipse.ui.workbench.ACTIVE_TAB_BG_END=255,255,255
+/instance/org.eclipse.ui.workbench/org.eclipse.ui.workbench.ACTIVE_TAB_BG_START=255,255,255
+/instance/org.eclipse.ui.workbench/org.eclipse.ui.workbench.INACTIVE_TAB_BG_START=242,242,242
+/instance/org.eclipse.ui/showIntro=false
+/instance/org.eclipse.urischeme/processedSchemes=,eclipse+command,eclipse+mpc
+@org.eclipse.core.net=1.3.1200.v20220312-1450
+@org.eclipse.core.resources=3.17.0.v20220517-0751
+@org.eclipse.debug.core=3.19.100.v20220324-0630
+@org.eclipse.debug.ui=3.16.100.v20220526-0826
+@org.eclipse.egit.core=6.2.0.202206071550-r
+@org.eclipse.egit.ui=6.2.0.202206071550-r
+@org.eclipse.epp.mpc.ui=1.10.0.v20220502-0731
+@org.eclipse.jdt.core=3.30.0.v20220524-1333
+@org.eclipse.jdt.debug.ui=3.12.700.v20220513-0809
+@org.eclipse.jdt.junit=3.14.100.v20220411-0722
+@org.eclipse.jdt.launching=3.19.600.v20220409-1932
+@org.eclipse.jdt.ui=3.26.100.v20220516-1138
+@org.eclipse.jsch.core=1.3.900.v20200422-1935
+@org.eclipse.m2e.core=1.18.4.20220208-0831
+@org.eclipse.m2e.discovery=1.18.1.20211002-1029
+@org.eclipse.oomph.workingsets=1.12.0.v20220421-1218
+@org.eclipse.search=3.14.100.v20220120-1549
+@org.eclipse.team.core=3.9.400.v20220511-1440
+@org.eclipse.ui=3.201.0.v20220124-1108
+@org.eclipse.ui.ide=3.19.0.v20220511-1638
+@org.eclipse.ui.workbench=3.125.100.v20220524-1304
+@org.eclipse.urischeme=1.2.100.v20211001-1648
+file_export_version=3.0
