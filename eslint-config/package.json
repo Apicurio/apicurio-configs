@@ -1,6 +1,6 @@
 {
   "name": "@apicurio/eslint-config",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "This package provides Apicurio's .eslintrc as an extensible shared config.",
   "main": "index.js",
   "repository": {
@@ -17,10 +17,10 @@
   },
   "homepage": "https://github.com/Apicurio/apicurio-configs#readme",
   "dependencies": {
-    "@typescript-eslint/parser": "^5.30.0"
+    "@typescript-eslint/parser": "7.6.0"
   },
   "peerDependencies": {
-    "eslint": ">= 3",
-    "@typescript-eslint/eslint-plugin": ">= 5"
+    "eslint": ">= 8",
+    "@typescript-eslint/eslint-plugin": ">= 7"
   }
 }
