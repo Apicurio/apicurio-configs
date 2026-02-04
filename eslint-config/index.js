@@ -14,33 +14,35 @@
  * limitations under the License.
  */
 
-'use strict';
+import eslint from "@eslint/js";
+import tseslint from "typescript-eslint";
 
-module.exports = {
-	extends: [
-		"eslint:recommended",
-		"plugin:@typescript-eslint/recommended"
-	],
-	plugins: [
-		"@typescript-eslint"
-	],
-	parser: "@typescript-eslint/parser",
-	rules: {
-		"quotes": ["error", "double"],
-		"semi": ["error", "always"],
-		"indent": ["error", 4, {
-		  "FunctionDeclaration": {
-			"parameters": "first"
-		  },
-		  "SwitchCase": 1
-		}],
-		"key-spacing": ["error", {
-			"afterColon": true
-		  }
-		],
-		"object-curly-spacing": ["error", "always"],
-		"linebreak-style": "off",
-		"@typescript-eslint/no-explicit-any": "off",
-		"@typescript-eslint/no-inferrable-types": "off"
-		}
-};
+/**
+ * Apicurio ESLint configuration for ESLint 9+ (flat config format)
+ *
+ * This configuration extends ESLint's recommended rules and TypeScript ESLint's
+ * recommended rules, with specific style preferences for Apicurio projects.
+ */
+export default tseslint.config(
+    eslint.configs.recommended,
+    ...tseslint.configs.recommended,
+    {
+        rules: {
+            "quotes": ["error", "double"],
+            "semi": ["error", "always"],
+            "indent": ["error", 4, {
+                "FunctionDeclaration": {
+                    "parameters": "first"
+                },
+                "SwitchCase": 1
+            }],
+            "key-spacing": ["error", {
+                "afterColon": true
+            }],
+            "object-curly-spacing": ["error", "always"],
+            "linebreak-style": "off",
+            "@typescript-eslint/no-explicit-any": "off",
+            "@typescript-eslint/no-inferrable-types": "off"
+        }
+    }
+);

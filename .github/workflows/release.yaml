@@ -1,0 +1,84 @@
+name: Release
+on:
+  workflow_dispatch:
+    inputs:
+      release-version:
+        description: 'Version being released'
+        required: true
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  release:
+    name: Verify Build & Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Update npm
+        run: npm install -g npm@latest
+
+      - name: Check Node Version
+        run: node --version
+
+      - name: Checkout code
+        uses: actions/checkout@v5
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "apicurio-ci"
+          git config --global user.email "apicurio.ci@gmail.com"
+
+      - name: Set release version in package.json
+        working-directory: eslint-config
+        run: |
+          npm version ${{ github.event.inputs.release-version }}
+
+      - name: Build Project
+        working-directory: eslint-config
+        run: |
+          npm install
+
+      - name: Push Release Version Change
+        run: |
+          git add .
+          git commit -m "Update to version ${{ github.event.inputs.release-version }} for release."
+          git push
+
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        with:
+          tag_name: ${{ github.event.inputs.release-version}}
+
+      - name: Publish to npmjs.com
+        working-directory: eslint-config
+        run: |
+          npm publish --access public
+
+      - name: Slack Notification (Always)
+        if: always()
+        run: |
+          MESSAGE="'${{ github.workflow }}/${{ github.job }}' job completed with status: ${{ job.status }}"
+          REPO="${{ github.repository }}"
+          LINK="https://github.com/$REPO/actions/runs/${{ github.run_id }}"
+          PAYLOAD="{\"workflow\": \"${{ github.workflow }}\", \"status\": \"${{ job.status }}\", \"message\": \"$MESSAGE\", \"link\": \"$LINK\", \"repository\": \"$REPO\"}"
+          curl -X POST -H "Content-Type: application/json" -d "$PAYLOAD" ${{ secrets.SLACK_NOTIFICATION_WEBHOOK }}
+
+      - name: Slack Notification (Error)
+        if: failure()
+        run: |
+          MESSAGE="'${{ github.workflow }}/${{ github.job }}' job FAILED!"
+          REPO="${{ github.repository }}"
+          LINK="https://github.com/$REPO/actions/runs/${{ github.run_id }}"
+          PAYLOAD="{\"workflow\": \"${{ github.workflow }}\", \"status\": \"${{ job.status }}\", \"message\": \"$MESSAGE\", \"link\": \"$LINK\", \"repository\": \"$REPO\"}"
+          curl -X POST -H "Content-Type: application/json" -d "$PAYLOAD" ${{ secrets.SLACK_ERROR_WEBHOOK }}

@@ -1,26 +1,32 @@
 {
   "name": "@apicurio/eslint-config",
-  "version": "0.3.0",
-  "description": "This package provides Apicurio's .eslintrc as an extensible shared config.",
+  "version": "1.0.0-Dev",
+  "description": "This package provides Apicurio's ESLint configuration as an extensible shared config for ESLint 9+.",
+  "type": "module",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Apicurio/apicurio-configs.git"
   },
   "keywords": [
-    "eslint"
+    "eslint",
+    "eslint-config",
+    "typescript"
   ],
-  "author": "Enda Phelan",
+  "author": "Eric Wittmann",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/Apicurio/apicurio-configs/issues"
   },
   "homepage": "https://github.com/Apicurio/apicurio-configs#readme",
   "dependencies": {
-    "@typescript-eslint/parser": "7.6.0"
+    "@eslint/js": "^9",
+    "typescript-eslint": "^8"
   },
   "peerDependencies": {
-    "eslint": ">= 8",
-    "@typescript-eslint/eslint-plugin": ">= 7"
+    "eslint": "^9"
   }
 }
